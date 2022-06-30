@@ -1,0 +1,9 @@
+.formouter1{
+    position: absolute;
+    height: fit-content;
+    width: 90vh;
+   
+     padding: 3vh;
+    background-color: rgb(16, 187, 239);
+     border-radius: 10px;
+}

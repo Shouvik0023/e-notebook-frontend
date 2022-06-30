@@ -1,0 +1,58 @@
+.note{
+    border: 1px solid black;
+    height: 25vh;
+    width: 25vh;
+    border-radius: 10px;
+    position: relative;
+    top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .read{
+
+    position: absolute;
+    right: 1vw;
+    bottom: 1vw ;
+  
+} */
+
+
+.circle{
+ 
+       position: absolute;
+      
+       background-color: rgba(91, 78, 78, 0.885);
+       height: 2vw;
+       width: 2vw;
+       border-radius: 50%;
+       cursor: pointer;
+       
+}
+
+
+
+
+.plus1{
+    position: absolute;
+    background-color: white;
+    height: 1vw ;
+    width: 0.2vw;
+    left: 0.9vw;
+    top: 0.5vw;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.plus2{
+    transform: rotate(90deg);
+}
+
+.addnote{
+
+    border: 2px solid black;
+    height: 50vh;
+    width: 50vh;
+}

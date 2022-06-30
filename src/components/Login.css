@@ -1,0 +1,19 @@
+.formouter{
+
+      position: absolute;
+     height: fit-content;
+     width: 55vh;
+    
+      padding: 3vh;
+      background-image: linear-gradient(aqua,blue);
+      border-radius: 10px;
+}
+
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
