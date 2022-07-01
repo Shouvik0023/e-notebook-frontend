@@ -1,13 +1,12 @@
-import React,{useContext} from 'react'
-import noteContext from '../context/notes/NoteContext'
+import React from 'react'
 function About() {
 
-  const a= useContext(noteContext);
   return (
-
+ <div className="container">
     <div style={{height: "30vh",border:"2px solid black",top:"15vh",position:"absolute",width:"30vh"}}>
       <h5>title</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, et! Eligendi ut consequatur fugiat blanditiis consequuntur laborum voluptate optio pariatur!</p>
+      <p style={{width:"20vh"}}>Loremipsumdolorsitametconsectetur adipisicing elit. Magnam, et! Eligendi ut consequatur fugiat blanditiis consequuntur laborum voluptate optio pariatur!</p>
+   </div>
    </div>
   )
 }

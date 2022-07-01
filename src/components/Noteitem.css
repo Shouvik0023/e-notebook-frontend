@@ -16,9 +16,6 @@
     position: absolute; 
      top: 28px;
     left: 15px;
-      overflow-x: hidden;
-    width: 20vh;
-    height: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -31,7 +28,7 @@
     border-radius: 10px;
     position: relative;
     top: 8vh;
-    padding: 12vh;
+    /* padding: 12vh; */
     
 }
 
