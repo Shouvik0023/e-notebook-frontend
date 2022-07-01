@@ -1,0 +1,51 @@
+.position1{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    
+}
+
+.position2{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.position3{
+    
+    position: absolute; 
+     top: 28px;
+    left: 15px;
+      overflow-x: hidden;
+    width: 20vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.note1{
+    border: 1px solid black;
+    height: 25vh;
+    width: 25vh;
+    border-radius: 10px;
+    position: relative;
+    top: 8vh;
+    padding: 12vh;
+    
+}
+
+.position4{
+
+     position: absolute;
+     left: 15px;
+     bottom: 21px;
+}
+
+.position5{
+
+    position: absolute;
+    left: 45px;
+    bottom: 21px;
+
+}

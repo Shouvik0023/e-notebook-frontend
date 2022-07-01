@@ -8,6 +8,8 @@ import NoteState from "./context/notes/NoteState";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Addnote from "./components/Addnote";
+import Note from "./components/Note";
+import Editnote from "./components/Editnote";
 
 function App() {
   return (
@@ -21,6 +23,10 @@ function App() {
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/signup" element={<Signup />} />
         <Route exact path="/addnote" element={<Addnote />} />
+        <Route exact path="/note" element={<Note/>} />
+        <Route exact path="/editnote" element={<Editnote/>} />
+
+
 
       </Routes>
       </div>

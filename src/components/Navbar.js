@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css"
 
 function Navbar() {
   let location = useLocation();
 
-  useEffect(() => {}, [location]);
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-primary">
@@ -22,7 +21,7 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <Link className="navbar-brand" to="/">
-            i-Notebook
+            e-Notebook
           </Link>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
